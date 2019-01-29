@@ -16,7 +16,12 @@ Make a virtual environment:
 6. ```source exvenv/bin/activate``` to start the virtul environment.
 
 The Flask Structure:
-Inside the flask_intro project you'll find
+First, you need to install flask systemwide
+```
+sudo apt-get install python3-pip python3-dev nginx
+sudo pip3 install virtualenv
+```
+Inside the flask_intro github project you'll find
 1. app.py - controller for the project
 2. static - images and other static resource
 3. templates - HTML and other resources that can be rendered
